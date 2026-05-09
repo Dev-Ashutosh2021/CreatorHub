@@ -18,6 +18,7 @@ A responsive mini web app where a creator can showcase paid content and users ca
 
 ## Project Structure
 
+```text
 src/
   components/
     ContentCard.tsx
@@ -30,15 +31,20 @@ src/
   main.tsx
   styles.css
   types.ts
+```
 
 ## Setup
 
+```bash
 npm install
 npm run dev
+```
 
 Open the local URL shown in the terminal, usually `http://localhost:5173`.
 
 ## Build
 
+```bash
 npm run build
 npm run preview
+```
